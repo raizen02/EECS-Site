@@ -1,0 +1,43 @@
+﻿@model constructMVC.Models.LoginModel
+
+@{
+	ViewBag.Title = "Log in";
+}
+
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<div id="login">
+@using (Html.BeginForm((string)ViewBag.FormAction, "Account")) {
+	@Html.ValidationSummary(true, "Log in was unsuccessful. Please correct the errors and try again.")
+
+   
+		
+		<label class="login-info"> @Html.LabelFor(m => m.UserName)</label>
+			 @Html.TextBoxFor(m => m.UserName, new { @class = "input" })
+			 @Html.ValidationMessageFor(m => m.UserName)
+			<label class="login-info">@Html.LabelFor(m => m.Password)</label>
+			 @Html.PasswordFor(m => m.Password, new { @class = "input" })
+			 @Html.ValidationMessageFor(m => m.Password)
+			
+			<div id="remember-forgot">
+				<div class="checkbox">
+					 @Html.CheckBoxFor(m => m.RememberMe)</div>
+				<div class="rememberme">
+					Remember Me</div>
+				<div id="forgot-password">
+					<a href="#">Forgot Password ?</a> </div>
+				<div id="login-buttton">
+					<input name="Submit" src="../Content/themes/default/images/login-button.jpg" type="image" value="Giriş" /></div>
+			</div>
+  
+  
+}
+    
+<section class="social" id="socialLoginForm">
+	<h2>Use another service to log in.</h2>
+	@Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>
+  </div>
+
+
+

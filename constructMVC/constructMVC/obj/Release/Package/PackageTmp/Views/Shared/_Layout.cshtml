@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+    <title>EECS - @ViewBag.Title</title>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="@Url.Content("~/Content/style.css")" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="@Url.Content("~/Contentstyle.responsive.css")" media="all">
+     <link href="@Url.Content("~/Content/themes/site.css")" rel="stylesheet" type="text/css" />
+     <link href="@Url.Content("~/Content/themes/default/superfish.css")" rel="stylesheet" type="text/css" />
+        <link href="@Url.Content("~/Content/themes/default/jquery.autocomplete.css")" rel="stylesheet" type="text/css" />
+        <link href="@Url.Content("~/Content/themes/base/jquery-ui.css")" rel="stylesheet" type="text/css" />
+        
+
+
+
+<style>.art-content .art-postcontent-0 .layout-item-0 { margin-top: 5px;margin-bottom: 5px;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-top-width:1px;border-top-style:Solid;border-top-color:#DEDEDE;margin: 0px;  }
+    .art-content .art-postcontent-0 .layout-item-2 {
+        background: #33CCFF url(@Url.Content("~/Content/images/logo2.png")) no-repeat scroll; padding: 0px; text-align:right  }
+.art-content .art-postcontent-0 .layout-item-3 { color: #424242; background: #EDEDED;  }
+.art-content .art-postcontent-0 .layout-item-4 { color: #424242; padding-right: 20px;padding-left: 20px;  }
+.art-content .art-postcontent-0 .layout-item-5 { margin-top: 5px;  }
+.art-content .art-postcontent-0 .layout-item-6 { padding-right: 1px;padding-left: 1px;  }
+.ie7 .post .layout-cell {border:none !important; padding:0 !important; }
+.ie6 .post .layout-cell {border:none !important; padding:0 !important; };
+
+</style></head>
+<body>
+<div id="art-main">
+<header class="art-header clearfix">
+
+
+    <div class="art-shapes">
+<h1 class="art-headline" data-left="14.47%">
+    EECS
+</h1>
+<h2 class="art-slogan" data-left="14.72%">Integrated Engineering and Construction</h2>
+
+
+            </div>
+
+<nav class="art-nav clearfix">
+    <ul class="art-hmenu">
+        <li>@Html.ActionLink("Home", "Index", "Home", null, new {id = "homeid", @class="tmp" })</li>
+        <li>@Html.ActionLink("Services", "Index", "Services", null, new {id = "servicesid", @class="tmp" })</li>
+        <li>@Html.ActionLink("Projects", "Index", "Projects", null, new {id = "projectsid", @class="tmp" })</li>
+        <li>@Html.ActionLink("Contact Us", "ContactUs", "Home", null, new {id = "contactusid", @class="tmp" })</li>
+         <li><a href="#" id="btnlogin"  class="tmp">Login</a> </li>
+    </ul>
+        </nav>
+
+                    
+</header>
+<div class="art-sheet clearfix">
+       @RenderBody()
+ <footer class="art-footer clearfix">
+        <div style="border-top:1px solid #dedede; width: 865px"><br>
+        © 2011-2012, Encinas Engineering and Construction Services. All Rights Reserved. </div>
+    </footer>
+</div>
+    <p class="art-page-footer">
+        &nbsp;</p>
+</div>
+
+
+</body></html>
+
+  <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-2.0.1.js")"></script>  
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-ui-1.10.3.min.js")"></script>  
+
+    <script src="@Url.Content("~/Scripts/custom/script.js")"></script>
+    <script src="@Url.Content("~/Scripts/custom/script.responsive.js")"></script>
+   @*     <script type="text/javascript" src="@Url.Content("~/Scripts/default/hoverIntent.js")"></script>
+     <script type="text/javascript" src="@Url.Content("~/Scripts/default/supersubs.js")"></script>
+      <script type="text/javascript" src="@Url.Content("~/Scripts/default/ccms.validations.js")"></script>
+      <script type="text/javascript" src="@Url.Content("~/Scripts/default/ccms.js")"></script>   *@
+   <script type="text/javascript" >
+       switch (document.title)
+       {
+           case 'EECS - Home':
+               $('#homeid').removeClass('tmp').addClass('active');
+               $('#servicesid').removeClass('active');
+               $('#projectsid').removeClass('active');
+               $('#contactusid').removeClass('active');
+               break;
+           case 'EECS - Services':
+               $('#servicesid').removeClass('tmp').addClass('active');
+               $('#homeid').removeClass('active');
+               $('#projectsid').removeClass('active');
+               $('#contactusid').removeClass('active');
+               break;
+           case 'EECS - Current Projects':
+               $('#projectsid').removeClass('tmp').addClass('active');
+               $('#homeid').removeClass('active');
+               $('#servicesid').removeClass('active');
+               $('#contactusid').removeClass('active');
+               break;
+           case 'EECS - Contact Us':
+               $('#contactusid').removeClass('tmp').addClass('active');
+               $('#homeid').removeClass('active');
+               $('#projectsid').removeClass('active');
+               $('#servicesid').removeClass('active');
+               break;
+
+       };
+       $(function () {
+           
+           //$("#info-message").dialog({
+           //    autoOpen: false,
+           //    modal: true,
+           //    buttons: {
+           //        "OK": function () {
+           //            $(this).dialog("close");
+           //            clearMsg();
+           //            return true;
+           //        }
+           //    }
+           //});
+           //jQuery('ul.sf-menu').supersubs({
+           //    minWidth: 12,   // minimum width of sub-menus in em units 
+           //    maxWidth: 27,   // maximum width of sub-menus in em units 
+           //    extraWidth: 1     // extra width can ensure lines don't sometimes turn over 
+           //    // due to slight rounding differences and font-family 
+           //});
+           $("#login").dialog({
+               autoOpen: false,
+               width: 500,
+               height: 350,
+               modal: true,
+               buttons: {
+                   "Cancel":
+              function () {
+                  $(this).dialog("close"); return false;
+              }
+               }
+           });
+           $('#btnlogin').click(function () {
+               alert('dfdfd');
+               $("#login").dialog('open');
+           });
+
+        });
+
+
+
+  
+ 
+         
+                   
+    
+ 
+        
+
+
+
+   </script>
+
+    @if (IsSectionDefined("PageScripts")) { 
+           @RenderSection("PageScripts")
+    }

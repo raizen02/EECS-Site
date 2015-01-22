@@ -1,0 +1,7 @@
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Release\ConstructMVC.Repository.dll.config
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Release\ConstructMVC.Repository.dll
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Release\ConstructMVC.Repository.pdb
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Release\EntityFramework.dll
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Release\EntityFramework.xml
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Release\ConstructMVC.Repository.dll
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Release\ConstructMVC.Repository.pdb

@@ -1,0 +1,16 @@
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\ConstructMVC.Repository.dll.config
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\ConstructMVC.Repository.dll
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\ConstructMVC.Repository.pdb
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\EntityFramework.dll
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\EntityFramework.xml
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Debug\ConstructMVC.Repository.csprojResolveAssemblyReference.cache
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Debug\ConstructMVC.Repository.dll
+E:\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Debug\ConstructMVC.Repository.pdb
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\ConstructMVC.Repository.dll.config
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\ConstructMVC.Repository.dll
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\ConstructMVC.Repository.pdb
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\EntityFramework.dll
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\bin\Debug\EntityFramework.xml
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Debug\ConstructMVC.Repository.csprojResolveAssemblyReference.cache
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Debug\ConstructMVC.Repository.dll
+H:\E from Old\RME\Site MVC\constructMVC\ConstructMVC.Repository\obj\Debug\ConstructMVC.Repository.pdb
